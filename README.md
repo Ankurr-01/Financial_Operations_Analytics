@@ -20,7 +20,7 @@ A comprehensive end-to-end financial analytics project covering revenue forecast
 
 ## 📁 Project Structure
 ```
-financial-operations-analytics/
+Financial-Operations-Analytics/
 │
 ├── financial_customers.csv           # Customer master data
 ├── financial_transactions.csv        # Transaction history
@@ -100,8 +100,8 @@ pip package manager
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/financial-operations-analytics.git
-cd financial-operations-analytics
+git clone https://github.com/Ankurr-01/Financial-Operations-Analytics.git
+cd Financial-Operations-Analytics
 ```
 
 2. **Install dependencies**
@@ -126,28 +126,27 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 scikit-learn>=0.24.0
 statsmodels>=0.13.0
-prophet>=1.0  # Optional but recommended
+prophet>=1.1.0  # Optional but recommended
 scipy>=1.7.0
 ```
 
----
 
 ## 📊 Key Visualizations
 
 ### Revenue Forecasting
-![Revenue Forecast](financial_viz/04_arima_forecast.png)
+![Revenue Forecast](09_financial_viz/04_arima_forecast.png)
 *12-month revenue forecast with 95% confidence intervals*
 
 ### Churn Analysis
-![Churn Analysis](financial_viz/07_churn_analysis.png)
+![Churn Analysis](09_financial_viz/07_churn_analysis.png)
 *Comprehensive churn analysis by segment and features*
 
 ### Customer Segmentation
-![RFM Segmentation](financial_viz/13_rfm_analysis.png)
+![RFM Segmentation](09_financial_viz/13_rfm_analysis.png)
 *RFM-based customer segmentation dashboard*
 
 ### Executive Dashboard
-![Executive Dashboard](financial_viz/16_FINAL_EXECUTIVE_DASHBOARD.png)
+![Executive Dashboard](09_financial_viz/16_FINAL_EXECUTIVE_DASHBOARD.png)
 *Comprehensive executive summary dashboard*
 
 ---
